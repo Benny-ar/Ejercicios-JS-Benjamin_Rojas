@@ -1,0 +1,1 @@
+alert("Bienvenido a esta página web, como puedes ver aquí no hay nada")

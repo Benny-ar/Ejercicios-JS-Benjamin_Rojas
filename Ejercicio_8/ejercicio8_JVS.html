@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 8 JS</title>
+</head>
+<body>
+    <h2>Examen Multiple Choice</h2>
+
+    <p>1. ¿Cuál es la capital de Francia?</p>
+    <select id="pregunta1">
+        <option value="">-- Elegí una opción --</option>
+        <option value="correcta">París</option>
+        <option value="incorrecta">Madrid</option>
+        <option value="incorrecta">Roma</option>
+    </select>
+
+    <p>2. ¿Cuál es 2 + 2?</p>
+    <select id="pregunta2">
+        <option value="">-- Elegí una opción --</option>
+        <option value="incorrecta">3</option>
+        <option value="correcta">4</option>
+        <option value="incorrecta">5</option>
+    </select>
+
+    <p>3. ¿Qué lenguaje se usa para páginas web?</p>
+    <select id="pregunta3">
+        <option value="">-- Elegí una opción --</option>
+        <option value="correcta">JavaScript</option>
+        <option value="incorrecta">Python</option>
+        <option value="incorrecta">C++</option>
+    </select>
+
+    <p>4. ¿Qué planeta es conocido como el “planeta rojo”?</p>
+    <select id="pregunta4">
+        <option value="">-- Elegí una opción --</option>
+        <option value="incorrecta">Júpiter</option>
+        <option value="correcta">Marte</option>
+        <option value="incorrecta">Venus</option>
+    </select>
+    <br>
+    <br>
+    <button onclick="corregirExamen()">Corregir examen</button>
+
+    <p>Resultado:</p>
+    <input type="text" id="resultado" readonly>
+    <script src="ejercicio8_JVS.js"></script>
+</body>
+</html>
